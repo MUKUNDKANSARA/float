@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>float</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        .left {
+            float: left;
+            width: 40%;
+            padding: 78px 70px;
+        }
+
+        .right {
+            float: right;
+            width: 40%;
+            padding: 94px 42px;
+            filter: drop-shadow(5px 9px 9px black);
+        }
+
+        h1 {
+          
+            font-size: 38px;
+            color: #4e4e4e;
+        }
+
+        p {
+          
+            font-size: 22px;
+            color: #2a1b1b;
+            line-height: 1.6;
+        }
+
+        button {
+            background-color: #302861;
+            color: white;
+            padding: 12px 35px;
+            border: none;
+            letter-spacing: 4px;
+          
+        }
+        button:hover{
+            background-color: white;
+            border: 2px solid #302861;
+            color: #302861;
+            }
+
+            @media only screen and (max-width:600px){
+                .left{
+                    float: none;
+                    width: 100%;
+                    /* padding: 51px 8px; */
+                    
+                }
+                .right{
+                    float: none;
+                    width: 100%;
+                }
+                h1{
+                    font-size: 25px;
+                }
+                body{
+                    background-color: aliceblue;
+                }
+            }
+
+            @media only screen and (min-width:600px) and (max-width:768px)  { 
+                .left{
+                    float: none;
+                    width: 100%;
+                }
+                .right{
+                    float: none;
+                    width: 100%;
+                }
+                h1{
+                    font-size: 35px;
+                }
+                body{
+                    background-color:aquamarine;
+                }
+            }
+            @media only screen and (min-width:768px) and (max-width:1200px)  { 
+                .left{
+                    float: none;
+                    width: 100%;
+                }
+                .right{
+                    float: none;
+                    width: 100%;
+                }
+                h1{
+                    font-size: 45px;
+                }
+                body{
+                    background-color:rgb(127, 236, 255);
+                }
+            }
+              
+            
+
+    </style>
+</head>
+
+<body>
+    <div class="left">
+        <h1>
+            Knowledge Is The Way To Success
+        </h1>
+        <p>Weltec is a Leading Training and Placement Institute that offers Practical-based Professional   Training
+            Programs in the field of Mobile and Web Development, Data Analytics, Digital Marketing and Software Testing
+            with job placement.</p>
+        <button>START LEARNING</button>
+    </div>
+    <img src="IMG/float img.jpg" alt="#" class="right">
+</body>
+
+</html>
